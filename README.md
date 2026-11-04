@@ -14,36 +14,37 @@
 ## 1.7 [![Watch on YouTube](https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=iOBZa2rXwwk)
 
 # **Directory**
-**Root**
+
+## **Root**
 - /promiseChain.js
 - /pokemon.js
-**Jest Tests**
+## **Jest Tests**
 - /tests/math.js
 - /tests/math.test.js
 - /tests/string.js
 - /tests/string.test.js
 - /tests/users.test.js
-**Models**
+## **Models**
 - /models/users.js
-**Data**
+## **Data**
 - /data/users.json
-**Routes**
+## **Routes**
 - /routes/books.js
 - /routes/index.js
-**Node Modules**
+## **Node Modules**
 - /node_modules
-**Environment Files**
+## **Environment Files**
 - /server.js
 - /.env
 - /.gitignore
 - /package.json
 - /package-lock.json
-**Documentation**
+## **Documentation**
 - /README.md **(That's me!)**
 
-## Routes
+# Routes
 
-**Books Router**
+## **Books Router**
 /routes/books.js
 the 5 CRUD methods for books
 1. Get: GET localhost:3000/books - gets all books
@@ -52,7 +53,7 @@ the 5 CRUD methods for books
 4. Put by ID: PUT localhost:3000/books/{bookid#} - Edit by ID Body raw JSON
 5. Delete by ID: DELETE localhost:3000/books/{bookid#} - Deletes book by id
 
-**Users Router**
+## **Users Router**
 /routes/index.js
 the 5 CRUD methods for /model/users.js
 1. Get: GET localhost:3000/users - gets all users
